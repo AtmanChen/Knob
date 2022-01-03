@@ -15,7 +15,7 @@ private struct KnobShape: Shape {
 }
 
 public struct Knob: View {
-  @Binding var value: Double
+  @Binding public var value: Double
   public var body: some View {
     KnobShape()
       .fill(Color.primary)
